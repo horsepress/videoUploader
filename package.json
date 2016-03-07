@@ -1,0 +1,30 @@
+{
+  "name": "wpupload",
+  "version": "1.0.0",
+  "description": "download of files from gopro, conversion with handbrake, then upload to wordpress, using API",
+  "main": "wpupload.js",
+  "scripts": {
+    "test": "node test/vptest.js"
+  },
+  "keywords": [
+    "handbrake",
+    "wordpress"
+  ],
+  "author": "Philip Hughson",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "config": "^1.19.0",
+    "exiftool": "0.0.3",
+    "fluent-ffmpeg": "^2.0.1",
+    "fs": "0.0.2",
+    "handbrake-js": "^2.0.7",
+    "handlebars": "^4.0.5",
+    "moment": "^2.11.1",
+    "request": "^2.67.0",
+    "request-progress": "^2.0.1",
+    "request-promise": "^2.0.0",
+    "wordpress": "^1.1.2",
+    "wordpress-rest-api": "^0.5.0"
+  }
+}
